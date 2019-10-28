@@ -1,0 +1,8 @@
+{
+    "name": "Language",
+    "namespace": "LoiPham\\Language\\",
+    "provider": "LoiPham\\Language\\Providers\\LanguageServiceProvider",
+    "author": "Loi Pham",
+    "version": "1.0",
+    "description": "The description for plugin language"
+}

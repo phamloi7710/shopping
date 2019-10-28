@@ -1,0 +1,5 @@
+@include('woo-commerce::admin.general.header')
+@include('woo-commerce::admin.general.navbar')
+@include('woo-commerce::admin.general.nav-sidebar')
+@yield('content')
+@include('woo-commerce::admin.general.footer')

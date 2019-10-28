@@ -1,0 +1,30 @@
+{
+    "name": "loipham/shopping",
+    "description": "The WooCommerce Package For Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phạm Lợi",
+            "email": "phamloi7710@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "LoiPham\\WooCommerce\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LoiPham\\WooCommerce\\App\\Providers\\WooCommerceServiceProvider"
+            ],
+            "aliases": {
+                "Assets": "LoiPham\\Assets\\Facades\\AssetsFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
